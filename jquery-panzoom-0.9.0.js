@@ -2,8 +2,10 @@
  * jQuery PanZoom Plugin
  * Pan and zoom an image within a parent div.
  *
- * version: 0.9.0
+ * version: 0.9.0-27stars
  * @requires jQuery v1.4.2 or later (earlier probably work, but untested so far)
+ *
+ * Modified for 27stars.co.uk
  *
  * Copyright (c) 2011 Ben Lumley
  * Examples and documentation at: https://github.com/benlumley/jQuery-PanZoom
