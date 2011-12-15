@@ -79,10 +79,11 @@
 			var data = this.data('panZoom');
       loadTargetDimensions.apply(this);
 			methods.updatePosition.apply(this);
-			if (data.last_image != null && data.last_image != this.attr('src')) {
+			var image = $(this).children('img');
+			if (data.last_image != null && data.last_image != image.attr('src')) {
         methods.fit.apply(this);
 			}
-			data.last_image = this.attr('src');
+			data.last_image = image.attr('src');
 			data.loaded = true;
 		},
 
